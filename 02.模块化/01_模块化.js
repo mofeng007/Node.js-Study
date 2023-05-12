@@ -16,7 +16,7 @@
             - 引入自定义模块时
                 - 模块名要以./ 或 ../开头
                 - 扩展名可以省略
-                    - 在CommonJS中，如果省略的js文件的扩展名
+                    - 在CommonJS中，如果省略了js文件的扩展名
                         node，会自动为文件补全扩展名
                             ./m1.js 如果没有js 它会寻找 ./m1.json
                             js --> json --> node（特殊）
@@ -25,7 +25,8 @@
                 - 也可以在核心模块前添加 node:
 
             当我们使用一个文件夹作为模块时，文件夹中必须有一个模块的主文件。
-            如果文件夹中含有package.json文件且文件中设置main属性，则main属性指定的文件会成为主文件，导入模块时就是导入该文件。如果没有package.json，
+            如果文件夹中含有package.json文件且文件中设置main属性，则main属性指定的文件会成为主文件，
+            导入模块时就是导入该文件。如果没有package.json，
             则node会按照index.js、index.node的顺序寻找主文件。    
 */
 const m1 = require("./m1")

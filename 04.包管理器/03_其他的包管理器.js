@@ -9,7 +9,7 @@
         
         和npm相比，yarn下载包的速度会快一些
 
-        yarn（个人习惯用yarn）
+        yarn
             安装
                 corepack enable
                 yarn init -2

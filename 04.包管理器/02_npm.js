@@ -16,4 +16,6 @@
                 npm set registry https://registry.npmmirror.com
                 - 还原到原版仓库
                 npm config delete registry
+                - 查看当前仓库地址
+                npm config get registry
 */

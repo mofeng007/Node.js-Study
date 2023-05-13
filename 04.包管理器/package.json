@@ -4,7 +4,7 @@
   "description": "这是一个自己尝试npm的包",
   "main": "01_npm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "dir"
   },
   "author": "",
   "license": "ISC"
